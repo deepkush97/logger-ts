@@ -1,0 +1,36 @@
+{
+  "name": "logger-ts",
+  "version": "1.0.0",
+  "description": "A simple logger implementation with typescript containing two transport method for logging.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --notify false --files --prefer-ts --ignore-watch node_modules -- src/index.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepkush97/logger-ts.git"
+  },
+  "keywords": [
+    "logger",
+    "logger-ts",
+    "node",
+    "typescript"
+  ],
+  "author": {
+    "email": "kushwaha97deepanshu@gmail.com",
+    "name": "Deepanshu Kushwaha",
+    "url": "https://github.com/deepkush97"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.4.10",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
