@@ -1,5 +1,5 @@
 {
-  "name": "logger-ts",
+  "name": "@deepkush97/logger-ts",
   "version": "1.0.0",
   "description": "A simple logger implementation with typescript containing two transport method for logging.",
   "main": "dist/index.js",
@@ -31,6 +31,6 @@
     "typescript": "^4.3.5"
   },
   "files": [
-    "lib/**/*"
+    "lib/*"
   ]
 }
