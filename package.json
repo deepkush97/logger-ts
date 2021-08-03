@@ -1,6 +1,6 @@
 {
   "name": "@deepkush97/logger-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple logger implementation with typescript containing two transport method for logging.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
