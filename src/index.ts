@@ -1,3 +1,2 @@
-export { ConsoleTransport } from "./Transports/ConsoleTransport";
-export { FileTransport } from "./Transports/FileTransport";
+export { ConsoleTransport, FileTransport, Transport } from "./Transports";
 export { Logger } from "./Logger";
